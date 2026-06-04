@@ -23,9 +23,11 @@ You do not need Python or PyTorch installed to run this API. Simply use Docker:
    cd production-medical-api
 
 2. Build the Docker container:
+    ```bash
    docker build -t medical-api .
 
 3. Run the container:
+    ```bash
    docker run -p 8000:8000 medical-api
 
-4. Open http://localhost:8000/docs in your browser to interact with the API via the automated Swagger UI.
+4. ```bash Open http://localhost:8000/docs in your browser to interact with the API via the automated Swagger UI.
