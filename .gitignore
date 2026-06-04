@@ -1,0 +1,12 @@
+# Ignore the dataset
+chest_xray/
+__MACOSX/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment variables or virtual environments
+.env
+venv/
+env/
