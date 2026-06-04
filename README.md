@@ -11,6 +11,9 @@ Deploying clinical machine learning models safely into production environments. 
 * **DevOps/Deployment:** Docker
 * **Data Processing:** Pillow, Scikit-learn
 
+## 📂 Dataset
+The model was trained using the [Chest X-Ray Images (Pneumonia) dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) from Kaggle. It contains over 5,800 validated chest X-ray images, categorized into Pneumonia and Normal classes.
+
 ## 📊 Model Performance
 * Achieved **87.5% Validation Accuracy** within 5 epochs using a frozen feature extractor and customized dense layers for binary classification (Normal vs. Pneumonia).
 
